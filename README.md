@@ -7,12 +7,13 @@ OtherPerson: shit
 We don't want any of this vulgar language in our chats.  
 ## To filter out swearwords, use swearfilter. If you want to use the default filter (That is explained below), type this:  
   
-`import swearfilter` \
-`swearFilter = swearfilter.Filter()` \
-`while True:` \
-    `    chatMsg = input('OtherPerson: ')` \
-    `    retValue = swearFilter.DefaultFilter(chatMsg)` \
-    `    print(retValue)` 
+```import swearfilter \
+swearFilter = swearfilter.Filter() \
+while True: \
+         chatMsg = input('OtherPerson: ') \
+         retValue = swearFilter.DefaultFilter(chatMsg) \
+         print(retValue)
+```
   
 This will be the output when someone sends a message:  
   
