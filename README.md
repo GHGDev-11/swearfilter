@@ -7,7 +7,8 @@ OtherPerson: shit
 We don't want any of this vulgar language in our chats.  
 ## To filter out swearwords, use swearfilter. If you want to use the default filter (That is explained below), type this:  
   
-```import swearfilter
+```py
+import swearfilter
 swearFilter = swearfilter.Filter()
 while True:
          chatMsg = input('OtherPerson: ')
