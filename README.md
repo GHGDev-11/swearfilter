@@ -1,13 +1,13 @@
 # This library is meant for developers who want a quick way to filter out and remove swearwords.
 \
-Here's an example of a chat app without filters:\  
+Here's an example of a chat app without filters: \
 \
-OtherPerson: shit\
+OtherPerson: shit \
 \
-We don't want any of this vulgar language in our chats.\
-## To filter out swearwords, use swearfilter. If you want to use the default filter (That is explained below), type this:\
+We don't want any of this vulgar language in our chats. \
+## To filter out swearwords, use swearfilter. If you want to use the default filter (That is explained below), type this: \
 \
-`import swearfilter`  
+`import swearfilter`
 `swearFilter = swearfilter.Filter()`  
 `while True:`  
 `    chatMsg = input('OtherPerson: ')`  
