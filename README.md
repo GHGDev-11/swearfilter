@@ -21,9 +21,9 @@ OtherPerson: ****
 ## If you want to use a custom filter, type this:  
 
 `import swearfilter` \
-`swearFilter = swearfilter.Filter()` \
+`swearFilter = swearfilter.Filter()`
   
-`swearlist = ['fuck', 'shit']` \
+`swearlist = ['fuck', 'shit']`
   
 `while True:` \
 `    chatMsg = input('OtherPerson: ')` \
