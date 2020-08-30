@@ -28,7 +28,7 @@ OtherPerson: ****
 `while True:` \
 `    chatMsg = input('OtherPerson: ')` \
 `    retValue = swearFilter.ConfigureFilter(chatMsg, swearlist)` \
-`    print(retValue)` \
+`    print(retValue)`
   
 ## What do these functions mean?
 
