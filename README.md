@@ -53,8 +53,13 @@ swearFilter = swearfilter.Filter()
 
 swearlist = ['fuck', 'shit']
 
-swearFilter.GetListLength(swearlist)
+listLength = swearFilter.GetListLength(swearlist)
+print(listLength)
 ```
+
+This will be the output:
+
+`2`
 
 # History
 
