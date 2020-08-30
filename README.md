@@ -10,9 +10,9 @@ We don't want any of this vulgar language in our chats.
 `import swearfilter` \
 `swearFilter = swearfilter.Filter()` \
 `while True:` \
-`    chatMsg = input('OtherPerson: ')` \
-`    retValue = swearFilter.DefaultFilter(chatMsg)` \
-`    print(retValue)` \
+    `    chatMsg = input('OtherPerson: ')` \
+    `    retValue = swearFilter.DefaultFilter(chatMsg)` \
+    `    print(retValue)` 
   
 This will be the output when someone sends a message:  
   
@@ -20,15 +20,15 @@ OtherPerson: ****
   
 ## If you want to use a custom filter, type this:  
 
-`import swearfilter`  
-`swearFilter = swearfilter.Filter()`  
+`import swearfilter` \
+`swearFilter = swearfilter.Filter()` \
   
-`swearlist = ['fuck', 'shit']`  
+`swearlist = ['fuck', 'shit']` \
   
-`while True:`  
-`    chatMsg = input('OtherPerson: ')`  
-`    retValue = swearFilter.ConfigureFilter(chatMsg, swearlist)`  
-`    print(retValue)`  
+`while True:` \
+`    chatMsg = input('OtherPerson: ')` \
+`    retValue = swearFilter.ConfigureFilter(chatMsg, swearlist)` \
+`    print(retValue)` \
   
 ## What do these functions mean?
 
